@@ -2,14 +2,14 @@
  * @Author: ReturnMars
  * @Date: 2023-06-05 15:57:59
  * @LastEditors: ReturnMars
- * @LastEditTime: 2023-06-06 12:51:22
+ * @LastEditTime: 2023-06-06 12:56:18
  * @Description: vitepree的配置文件
  */
 
 export default {
   base: "/frontcode/",
   lang: "zh-CN",
-  title: "前端代码规范",
+  title: "前端代码规范123",
   description: "前端代码规范",
   appearance: true,
   lastUpdated: true,

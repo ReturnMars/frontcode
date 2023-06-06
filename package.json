@@ -1,0 +1,19 @@
+{
+  "name": "web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "serve": "vitepress serve docs"
+  },
+  "keywords": [],
+  "author": "Aioreturn <returnmars@foxmail.com>",
+  "license": "ISC",
+  "repository": "https://github.com/ReturnMars/CodeSpecification.git",
+  "devDependencies": {
+    "vitepress": "^1.0.0-beta.1",
+    "vue": "^3.3.4"
+  }
+}

@@ -1,9 +1,9 @@
 <script setup>
-import { VPTeamMembers } from 'vitepress/theme'
-
+import { VPTeamMembers } from 'vitepress/theme';
+import { withBase } from "vitepress"
 const members = [
   {
-    avatar: '../../assets/avatar/returnmars.jpg',
+    avatar: withBase('/avatar_img/returnmars.jpg'),
     name: 'Return Mars',
     title: 'Creator',
     links: [
@@ -15,4 +15,7 @@ const members = [
 
 # 本文档编写成员
 
-<VPTeamMembers size="small" :members="members" />
+<VPTeamMembers size="small" :members="members" >
+   
+   
+</VPTeamMembers>

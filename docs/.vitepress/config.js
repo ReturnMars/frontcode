@@ -2,7 +2,7 @@
  * @Author: ReturnMars
  * @Date: 2023-06-05 15:57:59
  * @LastEditors: ReturnMars
- * @LastEditTime: 2023-06-06 12:58:18
+ * @LastEditTime: 2023-06-06 13:12:54
  * @Description: vitepree的配置文件
  */
 
@@ -13,6 +13,7 @@ export default {
   description: "前端代码规范",
   appearance: true,
   lastUpdated: true,
+  lastUpdatedText: "上次更新时间",
   themeConfig: {
     docFooter: {
       prev: "上一页",
@@ -98,6 +99,16 @@ export default {
             {
               text: "函数注释规范",
               link: "/content/注释规范/函数注释规范/index.md",
+            },
+          ],
+        },
+        {
+          text: "编写成员",
+          collapsed: true,
+          items: [
+            {
+              text: "成员列表",
+              link: "/content/编写成员/index.md",
             },
           ],
         },

@@ -2,12 +2,12 @@
  * @Author: ReturnMars
  * @Date: 2023-06-05 15:57:59
  * @LastEditors: ReturnMars
- * @LastEditTime: 2023-06-06 12:03:45
+ * @LastEditTime: 2023-06-06 12:51:22
  * @Description: vitepree的配置文件
  */
 
 export default {
-  base: "/CodeSpecification.io/",
+  base: "/frontcode/",
   lang: "zh-CN",
   title: "前端代码规范",
   description: "前端代码规范",

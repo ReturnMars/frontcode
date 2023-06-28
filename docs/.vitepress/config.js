@@ -2,7 +2,7 @@
  * @Author: ReturnMars
  * @Date: 2023-06-05 15:57:59
  * @LastEditors: ReturnMars
- * @LastEditTime: 2023-06-06 13:12:54
+ * @LastEditTime: 2023-06-28 09:59:51
  * @Description: vitepree的配置文件
  */
 
@@ -77,6 +77,16 @@ export default {
             {
               text: "代码规范",
               link: "/content/JS规范/代码规范/index.md",
+            },
+          ],
+        },
+        {
+          text: "Vue单文件组件规范",
+          collapsed: true,
+          items: [
+            {
+              text: "格式规范",
+              link: "/content/Vue单文件组件规范/格式规范/index.md",
             },
           ],
         },
